@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudScale | Project 2</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0b1f3a 0%, #133b5c 100%);
+      color: #fff;
+    }
+    .card {
+      text-align: center;
+      padding: 48px 56px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      backdrop-filter: blur(8px);
+      max-width: 540px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #5fbb97;
+      border: 1px solid #5fbb97;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 32px; margin-bottom: 12px; }
+    p { font-size: 18px; line-height: 1.6; color: #c7d4e2; }
+    .name { color: #5fbb97; font-weight: 700; }
+    .footer { margin-top: 28px; font-size: 13px; color: #8aa0b8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">CloudScale &middot; Project 2</span>
+    <h1>Containerized App on Azure ACI</h1>
+    <p>Deployed by <span class="name">A S A</span> using Docker, Terraform, and GitHub Actions.</p>
+    <div class="footer">Infrastructure as Code &bull; Azure Container Instances</div>
+  </div>
+</body>
+</html>
